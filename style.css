@@ -1,0 +1,238 @@
+@font-face {
+    font-family: rejouice;
+    src: url(./fonts/Rejouice-Headline.woff2);
+}
+@font-face {
+    font-family: rejoy;
+    src: url(./fonts/NBInternationalProBoo.woff2);
+}
+@font-face {
+    font-family: thirdFont;
+    src: url(./fonts/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+h1{
+    font-family:rejoy;
+    font-size: 4.1vw;
+    font-weight: 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rejoy;
+    font-weight: 100;
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.section-one{
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+    overflow: hidden;
+}
+.mousefollower{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position:absolute;
+    background-color: #FF5F38;
+    z-index: 8;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: rejoy;
+}
+
+.section-one video{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.front-page{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    padding: 3vw 3vw 0vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.front-page nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: rejoy;
+}
+.front-page h1{
+    display: inline-block;
+    font-size: 26.5vw;
+    font-weight: 300;
+    font-family: rejouice;
+    color: white;
+    /* letter-spacing: -55px; */
+    margin-bottom: -4vw;
+}
+.front-page h1 span{
+    font-family: rejouice;
+    display: inline-block;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.section-two{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3vw 3vw;
+    background-color: #FAF8F3;
+    
+}
+
+.text{
+    margin-top: 2.5vw;
+    padding: 1vw 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:rejoy;
+    font-size: 1.6vw;
+    text-transform: capitalize;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+
+}
+.section-two #content{
+    font-family: rejoy;
+    font-size: 4.1vw;
+    font-weight: 100;
+}
+#content span{
+    display: inline-block;
+}
+
+.section-two .second-text{
+    width: 100%;
+   text-align: center;
+    position: relative;
+    height: 80vh;
+    line-height: 1;
+}
+.center{
+    width: 60%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.section-two .second-text h3{
+    margin-bottom: 1vw;
+}
+.second-text span{
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    font-size: .8vw;
+    padding:.3vw .6vw;
+    border-radius: 50px;
+
+}
+.section-three{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: lightblue; */
+    padding: 3vw 3vw;
+    /* display: flex; */
+    background-color: #FAF8F3;
+    
+}
+.section-three .lines{
+   justify-content: space-between;
+    display: flex;
+    
+}
+.section-three .image-wrapper{
+    width: 100%;
+    height: 85vh;
+    margin-top: .5vw;
+    display: flex;
+    gap: 1%;
+   
+}
+.box{
+    width: 33%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.box video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.8s ease;
+}
+.box:hover img{
+opacity: 0;
+}
+
+.another-text{
+    margin-top: 10vw;
+}
+.another-text h2{
+    padding: 1vw 0vw;
+    border-bottom: 1px solid black;
+}
+.another-text h1{
+    padding: 1vw 0vw;
+   font-size: 4.2vw;
+}
+
+
+.section-four{
+    width: 100%;
+    height: 100vh;
+    padding: 1vw 3vw;
+    position: relative;
+    background-color:#FAF8F3;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 0vw;
+     width: 100%;
+}
+
+.footer h1{
+    display: inline-block;
+    font-size: 20vw;
+    font-weight: 300;
+    font-family: rejouice;
+   
+    color: white;
+}
